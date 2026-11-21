@@ -1,0 +1,4 @@
+2026-11-21 13:15:01,706 | INFO | Inicio de la prueba de EntidadBase.
+2026-11-21 13:15:01,706 | ERROR | Instanciación de clase abstracta rechazada: Can't instantiate abstract class EntidadBase without an implementation for abstract method 'describir'
+2026-11-21 13:15:01,707 | INFO | Creadas Entidad de prueba #1 y Entidad de prueba #2
+2026-11-21 13:15:01,707 | INFO | Fin de la prueba.
