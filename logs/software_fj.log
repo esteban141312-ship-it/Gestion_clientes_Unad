@@ -2,3 +2,63 @@
 2026-11-21 13:15:01,706 | ERROR | Instanciación de clase abstracta rechazada: Can't instantiate abstract class EntidadBase without an implementation for abstract method 'describir'
 2026-11-21 13:15:01,707 | INFO | Creadas Entidad de prueba #1 y Entidad de prueba #2
 2026-11-21 13:15:01,707 | INFO | Fin de la prueba.
+2026-11-21 14:27:17,035 | INFO | ===== INICIO DE LA SIMULACIÓN =====
+2026-11-21 14:27:17,036 | ERROR | Instanciación de clase abstracta rechazada: Can't instantiate abstract class EntidadBase without an implementation for abstract method 'describir'
+2026-11-21 14:27:17,037 | INFO | Registro de cliente completada correctamente.
+2026-11-21 14:27:17,038 | INFO | Fin de operación: Registro de cliente
+2026-11-21 14:27:17,038 | INFO | Registro de cliente completada correctamente.
+2026-11-21 14:27:17,038 | INFO | Fin de operación: Registro de cliente
+2026-11-21 14:27:17,038 | ERROR | Registro de cliente falló: Nombre inválido: 'X1'
+2026-11-21 14:27:17,038 | INFO | Fin de operación: Registro de cliente
+2026-11-21 14:27:17,039 | ERROR | Registro de cliente falló: Faltan datos obligatorios del cliente.
+2026-11-21 14:27:17,039 | INFO | Fin de operación: Registro de cliente
+2026-11-21 14:27:17,039 | INFO | Creación de servicio ReservaSala completada correctamente.
+2026-11-21 14:27:17,039 | INFO | Fin de operación: Creación de servicio ReservaSala
+2026-11-21 14:27:17,039 | INFO | Creación de servicio AlquilerEquipo completada correctamente.
+2026-11-21 14:27:17,039 | INFO | Fin de operación: Creación de servicio AlquilerEquipo
+2026-11-21 14:27:17,040 | INFO | Creación de servicio AsesoriaEspecializada completada correctamente.
+2026-11-21 14:27:17,040 | INFO | Fin de operación: Creación de servicio AsesoriaEspecializada
+2026-11-21 14:27:17,040 | ERROR | Creación de servicio ReservaSala falló: La tarifa debe ser un número positivo: -5
+2026-11-21 14:27:17,040 | INFO | Fin de operación: Creación de servicio ReservaSala
+2026-11-21 14:27:17,040 | INFO | Creación de servicio AlquilerEquipo completada correctamente.
+2026-11-21 14:27:17,040 | INFO | Fin de operación: Creación de servicio AlquilerEquipo
+2026-11-21 14:27:17,041 | INFO | Creación de reserva completada correctamente.
+2026-11-21 14:27:17,041 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,042 | INFO | Creación de reserva completada correctamente.
+2026-11-21 14:27:17,042 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,042 | INFO | Creación de reserva completada correctamente.
+2026-11-21 14:27:17,042 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,043 | ERROR | Creación de reserva falló: Parámetros de reserva inválidos. | causa: ServicioInvalidoError('Asistentes inválidos (50); capacidad: 10.')
+2026-11-21 14:27:17,043 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,043 | ERROR | Creación de reserva falló: Parámetros de reserva inválidos. | causa: ParametroFaltanteError("Se requiere 'asistentes' para reservar una sala.")
+2026-11-21 14:27:17,043 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,044 | ERROR | Creación de reserva falló: El servicio 'Portátil' no está disponible.
+2026-11-21 14:27:17,044 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,045 | ERROR | Creación de reserva falló: Cliente o servicio inválido para la reserva.
+2026-11-21 14:27:17,045 | INFO | Fin de operación: Creación de reserva
+2026-11-21 14:27:17,045 | INFO | Reserva #10 confirmada.
+2026-11-21 14:27:17,045 | INFO | Confirmación de reserva completada correctamente.
+2026-11-21 14:27:17,045 | INFO | Fin de operación: Confirmación de reserva
+2026-11-21 14:27:17,046 | INFO | Reserva #11 confirmada.
+2026-11-21 14:27:17,046 | INFO | Confirmación de reserva completada correctamente.
+2026-11-21 14:27:17,046 | INFO | Fin de operación: Confirmación de reserva
+2026-11-21 14:27:17,046 | INFO | Reserva #12 confirmada.
+2026-11-21 14:27:17,046 | INFO | Confirmación de reserva completada correctamente.
+2026-11-21 14:27:17,046 | INFO | Fin de operación: Confirmación de reserva
+2026-11-21 14:27:17,046 | INFO | Intento de procesamiento de reserva #10 (estado: PROCESADA).
+2026-11-21 14:27:17,047 | INFO | Procesamiento de reserva completada correctamente.
+2026-11-21 14:27:17,047 | INFO | Fin de operación: Procesamiento de reserva
+2026-11-21 14:27:17,047 | INFO | Intento de procesamiento de reserva #11 (estado: PROCESADA).
+2026-11-21 14:27:17,047 | INFO | Procesamiento de reserva completada correctamente.
+2026-11-21 14:27:17,047 | INFO | Fin de operación: Procesamiento de reserva
+2026-11-21 14:27:17,047 | INFO | Intento de procesamiento de reserva #12 (estado: CONFIRMADA).
+2026-11-21 14:27:17,047 | ERROR | Procesamiento de reserva falló: No se pudo procesar la reserva #12. | causa: CalculoInconsistenteError('Impuesto/descuento fuera de rango: 0.19, 1.5')
+2026-11-21 14:27:17,048 | INFO | Fin de operación: Procesamiento de reserva
+2026-11-21 14:27:17,048 | ERROR | Cancelación de reserva falló: No se puede cancelar una reserva en estado PROCESADA.
+2026-11-21 14:27:17,048 | INFO | Fin de operación: Cancelación de reserva
+2026-11-21 14:27:17,048 | INFO | Reserva #12 cancelada.
+2026-11-21 14:27:17,048 | INFO | Cancelación de reserva completada correctamente.
+2026-11-21 14:27:17,048 | INFO | Fin de operación: Cancelación de reserva
+2026-11-21 14:27:17,048 | ERROR | Confirmación de reserva falló: No se puede confirmar una reserva en estado CANCELADA.
+2026-11-21 14:27:17,049 | INFO | Fin de operación: Confirmación de reserva
+2026-11-21 14:27:17,049 | INFO | ===== FIN DE LA SIMULACIÓN =====
